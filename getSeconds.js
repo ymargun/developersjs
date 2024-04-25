@@ -1,3 +1,1 @@
-console.log("0 || 1 = "+(0 || 1));
-const fullName = name || 'buddy';
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
