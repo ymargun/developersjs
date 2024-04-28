@@ -1,1 +1,1 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
