@@ -1,1 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+console.log(1 +  "2" + "2");
+console.log(1 +  +"2" + "2");
