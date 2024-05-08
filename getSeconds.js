@@ -1,2 +1,2 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-var arr3 = "jones".split('');
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
