@@ -1,1 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
