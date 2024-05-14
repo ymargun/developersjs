@@ -1,2 +1,2 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+console.log(+"1" +  "1" + "2");
+function myAPITS(someString: string, someNum: number) { ... };
