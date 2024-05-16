@@ -1,2 +1,1 @@
-console.log("0 || 1 = "+(0 || 1));
-const executableName = getExecutableName(channel, appName);
+const updated = numbers.filter(element => element > 6);
