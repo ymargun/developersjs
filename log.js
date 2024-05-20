@@ -1,3 +1,3 @@
-const randomBoolean = () => Math.random() >= 0.5;
+var c = new Counter(); c.add(); c.add(); c.add();
 const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+console.log("0 || 1 = "+(0 || 1));
