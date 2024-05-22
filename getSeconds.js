@@ -1,2 +1,2 @@
-console.log( "A" - "B" + "2");
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const fullName = name || 'buddy';
+console.log("1 || 2 = "+(1 || 2));
