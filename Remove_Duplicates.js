@@ -1,1 +1,2 @@
-const updated = numbers.filter(element => element > 6);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
