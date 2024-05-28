@@ -1,1 +1,1 @@
-const updated = numbers.filter(element => element > 6);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
