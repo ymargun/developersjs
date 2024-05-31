@@ -1,2 +1,3 @@
-const fullName = name || 'buddy';
-console.log("1 || 2 = "+(1 || 2));
+const allResults = await Promise.all(items.map(async (item) => {}));
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const isTabInView = () => !document.hidden;
