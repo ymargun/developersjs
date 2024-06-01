@@ -1,3 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
