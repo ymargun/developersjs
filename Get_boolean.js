@@ -1,2 +1,1 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const isTabInView = () => !document.hidden;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
