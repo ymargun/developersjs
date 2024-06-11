@@ -1,3 +1,3 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const value = ( 5 < 7 ) ? "True" : "False" ;
+var c = new Counter(); c.add(); c.add(); c.add();
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
