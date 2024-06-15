@@ -1,3 +1,3 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+var DELIM_SIZE = 4;
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
