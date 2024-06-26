@@ -1,3 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
