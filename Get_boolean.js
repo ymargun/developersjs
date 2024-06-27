@@ -1,2 +1,3 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const merge = (a, b) => a.concat(b);
+const channelName = getChannelName(channel);
+const removeDuplicates = (arr) => [...new Set(arr)];
