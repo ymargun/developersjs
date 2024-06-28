@@ -1,3 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const value = ( 5 < 7 ) ? "True" : "False" ;
