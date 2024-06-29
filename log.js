@@ -1,1 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const merge = (a, b) => a.concat(b);
+const result = await makeHttpRequest(url);
+const results = await Promise.all(resultingPromises);
