@@ -1,3 +1,2 @@
-const merge = (a, b) => a.concat(b);
-const channelName = getChannelName(channel);
-const removeDuplicates = (arr) => [...new Set(arr)];
+console.log(false === '0');
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
