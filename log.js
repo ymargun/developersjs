@@ -1,1 +1,2 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+console.log(typeof typeof 1);
+var arr1 = "john".split('');
