@@ -1,3 +1,2 @@
-console.log( "A" - "B" + 2);
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-function myAPITS(someString: string, someNum: number) { ... };
+const arrayContains = (arr, element) => arr.includes(element);
+const merge = (a, b) => a.concat(b);
