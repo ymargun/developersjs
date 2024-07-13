@@ -1,3 +1,1 @@
-const reversedString = str => str.split('').reverse().join('');
-const results = await Promise.all(resultingPromises);
-console.log(typeof typeof 1);
+var DELIM_SIZE = 4;
