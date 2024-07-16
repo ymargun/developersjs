@@ -1,1 +1,1 @@
-var arr2 = arr1.reverse();
+const isWeekday = (date) => date.getDay() % 6 !== 0;
