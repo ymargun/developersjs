@@ -1,3 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const toggleBool = () => (bool = !bool);
+var DELIM_SIZE = 4;
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+var arr1 = "john".split('');
