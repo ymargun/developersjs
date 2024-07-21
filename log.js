@@ -1,3 +1,3 @@
-const merge = (a, b) => [...a, ...b];
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const flattenedArray = arr => [].concat(...arr);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
