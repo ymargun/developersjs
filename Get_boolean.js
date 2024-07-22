@@ -1,3 +1,2 @@
-var DELIM_SIZE = 4;
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-var arr1 = "john".split('');
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
