@@ -1,2 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
