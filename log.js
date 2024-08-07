@@ -1,3 +1,2 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-[foo, bar] = [bar, foo];
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
